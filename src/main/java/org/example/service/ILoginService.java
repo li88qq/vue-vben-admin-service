@@ -14,4 +14,6 @@ public interface ILoginService {
      * @return
      */
     BaseResponse login(LoginForm form);
+
+    BaseResponse getUserInfo();
 }
