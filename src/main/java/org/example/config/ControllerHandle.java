@@ -17,7 +17,7 @@ public class ControllerHandle {
 
     private static final Logger LOG = LoggerFactory.getLogger(ControllerHandle.class);
     @ExceptionHandler(value = Exception.class)
-    public BaseResponse Exception(Exception e) {
+    public BaseResponse exception(Exception e) {
         //自定义异常
         LOG.error(e.getLocalizedMessage());
         //参数异常
